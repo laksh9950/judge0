@@ -163,4 +163,11 @@
     source_file: "script.fsx",
     run_cmd: "mkdir -p ~/.dotnet && touch ~/.dotnet/3.1.406.dotnetFirstUseSentinel && /usr/bin/dotnet fsi script.fsx %s"
   },
+  {
+    id: 90,
+    name: "PythonML (3.7.7)",
+    is_archived: false,
+    source_file: "script.py",
+    run_cmd: "/usr/bin/python3 script.py %s"
+  },
 ]
